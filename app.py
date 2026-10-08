@@ -7,7 +7,7 @@ st.set_page_config(page_title="Dashboard de Energia", layout="wide")
 st.title("⚡ Produção de Energia no Brasil (2015-2024)")
 st.markdown("Análise da evolução da produção energética, identificando fontes predominantes, consumo e impactos ambientais.")
 
-# 2. Carregar os Dados
+#Dados
 @st.cache_data
 def carregar_dados():
     df = pd.read_csv('dados/simulacao_producao_energia_brasil.csv')
