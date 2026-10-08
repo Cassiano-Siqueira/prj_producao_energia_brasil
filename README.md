@@ -1,3 +1,5 @@
+Cassiano Siqueira - Prof°: Alexandre Neves Louzada - Linguagens de Programação
+
 # Produção de Energia no Brasil (2015-2024)
 
 Projeto de Análise e Visualização de Dados desenvolvido para a disciplina de Linguagem de Programação do Professor Alexandre Louzada da Unilasalle. O objetivo é analisar a matriz energética brasileira, identificando fontes predominantes, tendências de energia renovável e impactos ambientais.
