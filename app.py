@@ -90,9 +90,26 @@ with tab3:
     else:
         st.info("Dados insuficientes para comparativo.")
 
-st.markdown("---")
-st.subheader("Conclusao Executiva")
-st.markdown("A analise integrada demonstra a diversidade da matriz energetica brasileira, evidenciando padroes temporais de geracao, o peso das principais fontes renovaveis e nao-renovaveis, e comparativos estatisticos avancados para a gestao do setor eletrico.")
+    st.sidebar.markdown(
+    """
+    <style>
+        [data-testid="stSidebar"] > div:first-child {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("<small>Desenvolvido por Cassiano Siqueira<br>Disciplina de Linguagem de Programação</small>", unsafe_allow_html=True)
+st.sidebar.markdown(
+    """
+    <div>
+        <hr style="margin: 10px 0;">
+        <small>Desenvolvido por Cassiano Siqueira<br>Disciplina de Linguagem de Programação<br>Prof°: Alexandre Neves Louzada</small>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
