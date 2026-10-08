@@ -90,26 +90,26 @@ with tab3:
     else:
         st.info("Dados insuficientes para comparativo.")
 
-    st.sidebar.markdown(
-    """
-    <style>
-        [data-testid="stSidebar"] > div:first-child {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            height: 100%;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-st.sidebar.markdown(
-    """
-    <div>
-        <hr style="margin: 10px 0;">
-        <small>Desenvolvido por Cassiano Siqueira<br>Disciplina de Linguagem de Programação<br>Prof°: Alexandre Neves Louzada</small>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+ 
+        st.sidebar.markdown(
+            """
+            <style>
+              
+                [data-testid="stSidebar"] > div:first-child {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 100%;
+                }
+            </style>
+            <div style="margin-top: auto; padding-bottom: 20px;">
+                <hr style="margin: 15px 0 10px 0;">
+                <small>Desenvolvido por Cassiano Siqueira<br>Disciplina de Linguagem de Programação<br>Prof: Alexandre Neves Louzada</small>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
