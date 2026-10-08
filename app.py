@@ -93,7 +93,7 @@ with tab3:
  
         # --- RODAPÉ FIXO NO FUNDO DA BARRA LATERAL ---
 st.sidebar.markdown(
-    """
+
   
 
 rodape_html = """
