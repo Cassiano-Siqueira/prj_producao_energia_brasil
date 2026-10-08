@@ -92,10 +92,7 @@ with tab3:
 
 st.markdown("---")
 st.subheader("Conclusao Executiva")
-st.markdown("A analise integrada demonstra a diversidade da matriz energetica brasileira, evidenciando padroes temporais de geracao, o peso das principais fontes renovaveis e nao-renovaveis, e comparativos estatisticos avancados para a gestao do setor eletrico.")
-st.markdown("A analise integrada demonstra a diversidade da matriz energetica brasileira, evidenciando padroes
- temporais de geracao, o peso das principais fontes renovaveis e nao-renovaveis, e comparativos estatisticos avancados
-  para a gestao do setor eletrico.")
+st.markdown("""A analise integrada demonstra a diversidade da matriz energetica brasileira, evidenciando padroes temporais de geracao, o peso das principais fontes renovaveis e nao-renovaveis, e comparativos estatisticos avancados para a gestao do setor eletrico.""")
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("<small>Desenvolvido por Cassiano Siqueira<br>Disciplina de Linguagem de Programação</small>", unsafe_allow_html=True)
+
+st.sidebar.markdown('<div style="position: fixed; bottom: 20px; width: 250px;"><hr style="border: 0.5px solid #555; margin-bottom: 10px;"><small>Desenvolvido por Cassiano Siqueira<br>Disciplina de Linguagem de Programação<br>Prof: Alexandre Neves Louzada</small></div>', unsafe_allow_html=True)
