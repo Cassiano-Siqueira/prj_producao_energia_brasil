@@ -92,9 +92,7 @@ with tab3:
 
 st.markdown("---")
 st.subheader("Conclusao Executiva")
-st.markdown("A analise integrada demonstra a diversidade da matriz energetica brasileira, evidenciando padroes
- temporais de geracao, o peso das principais fontes renovaveis e nao-renovaveis, e comparativos estatisticos avancados
-  para a gestao do setor eletrico.")
+st.markdown("A analise integrada demonstra a diversidade da matriz energetica brasileira, evidenciando padroes temporais de geracao, o peso das principais fontes renovaveis e nao-renovaveis, e comparativos estatisticos avancados para a gestao do setor eletrico.")
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("<small>Desenvolvido por Cassiano Siqueira<br>Disciplina de Linguagem de Programação</small>", unsafe_allow_html=True)
