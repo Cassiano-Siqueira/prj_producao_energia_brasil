@@ -4,7 +4,7 @@ import plotly.express as px
 
 #Configuração da Página
 st.set_page_config(page_title="Dashboard de Energia", layout="wide")
-st.title("⚡ Produção de Energia no Brasil (2015-2024)")
+st.title("Produção de Energia no Brasil (2015-2024)")
 st.markdown("Análise da evolução da produção energética, identificando fontes predominantes, consumo e impactos ambientais.")
 
 #Dados
