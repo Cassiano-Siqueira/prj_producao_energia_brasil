@@ -91,15 +91,10 @@ with tab3:
         st.info("Dados insuficientes para comparativo.")
 
  
-        # --- RODAPÉ FIXO NO FUNDO DA BARRA LATERAL ---
-st.sidebar.markdown(
-
-  
-
-rodape_html = """
-<div style="position: fixed; bottom: 20px; width: 250px;">
-    <hr style="border: 0.5px solid #555; margin-bottom: 10px;">
-    <small>Desenvolvido por Cassiano Siqueira<br>Disciplina de Linguagem de Programação<br>Prof: Alexandre Neves Louzada</small>
-</div>
-"""
-st.sidebar.markdown(rodape_html, unsafe_allow_html=True)
+            rodape_html = """
+        <div style="position: fixed; bottom: 20px; width: 250px;">
+            <hr style="border: 0.5px solid #555; margin-bottom: 10px;">
+            <small>Desenvolvido por Cassiano Siqueira<br>Disciplina de Linguagem de Programação<br>Prof: Alexandre Neves Louzada</small>
+        </div>
+        """
+        st.sidebar.markdown(rodape_html, unsafe_allow_html=True)
